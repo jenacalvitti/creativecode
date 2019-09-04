@@ -1,0 +1,13 @@
+
+{
+	"one":["Brachio","Nano","Bronto","Dino","Diplo","Lepto","Vulcano","Zygo","Tri","Tyranno","Pachy","Alberta","Bactro","Lambeo","Proto","Bary","Mega", "Micro","Abel","Arch","Deino","Min","Such","Tric","Too","Edmoc","Comp"],
+	"two":["cera","saurus","cephalo","do","o","a","mor","metro","sog","not","mono","tor"],
+	"three":["lodon","saurus","raptor","rex","tops","cus","phalus","odon","titan","onyx","physis","erus","mimus","loss","nator"],
+	"middle":[" makes a "],
+	"beginning":["A "],
+	"sound":[" sound"],
+	"sounds":["RAWRRR", "GRRRR", "GROWLING", "SCREEEECH", "WOOF", "SQUEAAAK", "SNORTING", "GRUNTING", "HISSING", "HONK", "MOOO","HOOT"],
+	
+	"punct":["!","!!!!","!!?"],
+	"origin": ["#beginning##one##two##three##middle##sounds##sound##punct#"]
+}
