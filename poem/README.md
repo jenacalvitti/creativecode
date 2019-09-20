@@ -1,10 +1,7 @@
-# FrankenPoem
+# Tape2
 
-This project is a poem generator in Python. To see it run, download the [python script](frankpoem.py) and run it with Python or in a notebook. It will require [TextBlob](https://textblob.readthedocs.io), so make sure you've installed that first. 
+This poem, "Tape 2", was created from one of my favorite books, "13 Reasons Why". I wanted this poem to have deep meaning behind friendship and take the feelings from the narrator and project them on to the reader. This was not my original idea for the poem. My original idea was to take the movie, "Someone Great", unfortunately there were so many curse words and innapropriate situations, if I were to filter it out, it would have changed the integrity of the movie and poem I wanted to create. Once I changed sources for my poem, it became much easier to read and understand, and I was able to create a story within the poem.
 
-This script also assumes you have a file called "frankenstein.txt" in the same directory that the script runs from. The contents of that file can be anything you want to appropriate from. If you have different files, you can just change the filename reference on line 9 of the script.
+Within this code, it will filter through the sentences, and find the ones with however many words you ask for. Then, it will output the sentences with the amount of words you ask. 
 
-What this script will do is read the input file, parse it for parts of speech, then output a stanza of something that hopefully resembles poetry. The poetic quality of that output will vary widely based on the input. 
-
-Honestly (or should I say "frankly"? Get it?) I don't usually find the output of this script particularly compelling, but I think it's a good demonstration of some important concepts like working with a library and parts of speech tagging.
-
+Here is the link to my python notebook where the code is hosted: https://colab.research.google.com/drive/1y-PCOsS-gFUlo41TtWKyLbeJG-rJzvFI
