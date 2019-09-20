@@ -4,4 +4,14 @@ This poem, "Tape 2", was created from one of my favorite books, "13 Reasons Why"
 
 Within this code, it will filter through the sentences, and find the ones with however many words you ask for. Then, it will output the sentences with the amount of words you ask. 
 
-Here is the link to my python notebook where the code is hosted: https://colab.research.google.com/drive/1y-PCOsS-gFUlo41TtWKyLbeJG-rJzvFI
+Here is my final product:
+And compare what we bought.
+The story of a friendship.
+He found some other friends.
+And maybe you should have.
+Enough with the small talk.
+Even just hot chocolate friends.
+Three drinks against the world.
+Trust me, I've been there.
+So glad you're still listening.
+Maybe you did something cruel.
