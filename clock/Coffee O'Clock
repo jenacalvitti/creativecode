@@ -1,0 +1,78 @@
+let s = 'It is always a good time for coffee!';
+
+function setup() {
+  createCanvas(800, 400);
+ 
+  var now = new Date();
+  var nowSec = now.getSeconds();
+  var nowMin = now.getMinutes();
+ 
+ 
+ 
+
+}
+
+function draw() {
+  background(212, 216, 221);
+ 
+  //top banner
+  textSize(50);
+  text(s, 25, 50);
+ 
+  //circle outlines & handles
+ 
+  ellipseMode(CENTER);
+  fill('white'); //color for outline circles
+ 
+  //cup handles
+  rect(139, 75, 25, 75, 5); //hour cup handle
+ 
+  rect(389, 75, 25, 75, 5); //min cup handle
+ 
+  rect(639, 75, 25, 75, 5); //sec cup handle
+ 
+  //hour circle
+  arc(150, 200, 200, 200, 0, TWO_PI);
+ 
+  //min circle
+  arc(400, 200, 200, 200, 0, TWO_PI);
+ 
+  //sec circle
+  arc(650, 200, 200, 200, 0, TWO_PI);
+ 
+
+ 
+ 
+  fill(131,106,89); //color for moving time circles
+  var today = new Date();
+  var hour = today.getHours();
+  var min = today.getMinutes();
+  var sec = today.getSeconds();
+  //pieChart(100, angles);
+ 
+  var secOffset = (6 * PI/180) * sec;
+  var minOffset = (6 * PI/180) * min;
+  var hourOffset = (15 * PI/180) * hour;
+ 
+  //seconds arc
+  arc(650, 200, 200, 200, 3*PI/2, (3*PI/2) + secOffset);
+ 
+  //minutes arc
+  arc(400, 200, 200, 200, 3*PI/2, (3*PI/2) + minOffset);
+ 
+  //hours arc
+  arc(150, 200, 200, 200, 3*PI/2, (3*PI/2) + hourOffset);
+ 
+  //DISPLAY NUMBERS
+  textSize(25);
+  var hrs = hour + " hours";
+  var mns = min + " minutes";
+  var scnd = sec + " seconds";
+ 
+  text(hrs, 100, 350);
+  text(mns, 340, 350);
+  text(scnd, 590, 350);
+ 
+ 
+}
+
