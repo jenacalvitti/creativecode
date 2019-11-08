@@ -6,4 +6,4 @@ To read the clock's time, you have to read the pie chart and look at the number 
 
 I like the abstract of this clock because I like the idea that it is always a good time for coffee. This doesn't go with my original ideak, but it still involves coffee. I would say that it is pretty easy to read if you understand military time. 
 
-Link to running clock: https://editor.p5js.org/jenacalvitti/sketches/2XRpDZXJ-
+Link to running clock: https://editor.p5js.org/jenacalvitti/full/2XRpDZXJ-
