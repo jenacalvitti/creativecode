@@ -1,0 +1,42 @@
+import random
+from weasyprint import HTML
+
+#Let's make a novel
+
+novel = ''
+
+#random word array
+ranWords = ["WOW", "Ughh", "Sometimes", "All the time", "Once in a while", "Woah", 
+            "Surprise", "Fantastic", "Unfortunately", "Usually", "Recently", "No matter what",
+            "100%", "Duhh", "Occasionally", "What"]
+
+for line in range(50000):
+  word = random.choice(ranWords)
+  novel += word
+  novel += ", I love my dog" 
+  novel += random.choice(["? ",". . . ",". ","! ","!!!! "])
+  s = random.randrange(0,10)
+  if (s < 3):
+    novel += "\n\n"
+
+
+# Now, add the novel into an HTML template
+
+html_template = f"""
+<html>
+  <head>
+  <title>Buffalo</title>
+  <style>
+  body {{
+    font-family: Courier;
+  }}
+  </style>
+  </head>
+  <body>
+  {novel}
+  </body>
+</html>
+"""
+
+# Finally, this line saves that template as a PDF using the HTML module of WeasyPrint
+HTML(string=html_template).write_pdf("ILoveMyDog.pdf")
