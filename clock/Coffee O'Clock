@@ -7,7 +7,7 @@ function setup() {
   var nowSec = now.getSeconds();
   var nowMin = now.getMinutes();
  
- 
+ textFont('Bradley Hand')
  
 
 }
