@@ -1,0 +1,10 @@
+{
+	"beginning":["Wow", "Awesome", "Sweet", "Cool", "Neat", "Great", "Fantastic", "Look", "Outstanding", "Lovely", "Holy moly", "Goodness", "Woohoo", "Wowza"],
+	"that":[", that "],
+	"things":["bone ", "treat ", "squirrel ", "kibble ", "cheese ", "chicken ", "cat ", "grass ", "tree", "mulch", "stick", "flower", "hot dog", "rabbit", "skunk", "steak", "meatball", "sock", "dryer sheet", "couch", "pillow", "comforter", "toy", "ball", "money", "cheese doodle", "carrot", "cucumber", "shoe", "watermelon", "apple", "coffee", "protein bar", "bar of soap", "cookie", "medicine"],
+	"looks":[" looks "],
+	"describe":["yummy", "tasty", "delicious", "disgusting", "repulsive", "exquisite", "marvelous", "divine", "scrumptious", "appetizing", "appealing", "enticing", "delightful", "enjoyable", "nauseating", "inviting", "high quality", "zesty", "chilled", "charred", "frozen", "boney", "fatty", "lean", "tender", "juicy", "lip smacking", "mouth watering", "rare", "refreshing", "robust", "soggy", "unsavory", " wholesome"],
+	"exclame":["!", "!!", "!!!"],
+	"origin":["#beginning##that##things##looks##describe##exclame#"]
+}
+
