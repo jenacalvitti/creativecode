@@ -1,13 +1,18 @@
 var img;
-let xposition;
-let yposition;
-let ydirection = 1;
-let yspeed = 1;
+let xPosition;
+let yPosition;
+let yDirection = 1;
+let ySpeed = .3;
+let xAstroPos;
+let yAstroPos;
+let astroSpeed = .18;
+let astroDir = 1;
 
 var stars = [];
 
 function preload() {
-  img = loadImage('moonForP5.jpg');
+  img = loadImage('fullMoon.png');
+  astro = loadImage('astro.png');
 }
 
 function setup() {
@@ -17,8 +22,11 @@ function setup() {
 
     stars[s] = new Star();
 
-    xposition = width / 4;
-    yposition = 200;
+    xPosition = width / 4;
+    yPosition = 200;
+    
+    xAstroPos = 00;
+    yAstroPos = 50;
   }
 
 }
@@ -30,13 +38,36 @@ function draw() {
     stars[i].draw();
   }
 
-  image(img, xposition, yposition, width / 4, height / 4);
+  image(img, xPosition, yPosition, width / 4, height / 4);
+  
+  image(astro, xAstroPos, yAstroPos, width/4, height/4);
 
-  yposition = yposition + yspeed * ydirection;
+  yPosition = yPosition + ySpeed * yDirection;
 
-  if (yposition < 0 || yposition > 300) {
-    ydirection *= -1;
+  if (yPosition < 0 || yPosition > 300) {
+    yDirection *= -1;
   }
+  
+  xAstroPos = xAstroPos + astroSpeed * astroDir;
+  if(xAstroPos < 0 || xAstroPos > 300) {
+    astroDir *= -1;
+  }
+  
 }
 
+class Star {
+  constructor() {
+    this.x = random(width);
+    this.y = random(height);
+    this.size = random(0.25, 3);
+    this.t = random(TAU);
+  }
+
+  draw() {
+    this.t += 0.03;
+    var scale = this.size + sin(this.t) * 2;
+    noStroke();
+    square(this.x, this.y, scale);
+  }
+}
 // This Star class was created by user wvnl.  The code can be accessed at https://editor.p5js.org/wvnl/sketches/5wnuHAXKd
