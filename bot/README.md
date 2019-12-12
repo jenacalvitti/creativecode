@@ -1,6 +1,5 @@
-# Poem Project
+# Bot Project
 
-This poem, "Tape 2", was created from one of my favorite books, "13 Reasons Why". I wanted this poem to have deep meaning behind friendship and take the feelings from the narrator and project them on to the reader. This was not my original idea for the poem. My original idea was to take the movie, "Someone Great", unfortunately there were so many curse words and innapropriate situations, if I were to filter it out, it would have changed the integrity of the movie and poem I wanted to create. 
-Once I changed sources for my poem, it became much easier to read and understand, and I was able to create a story within the poem. 
+For this bot, I created an account that mimicks what my dog, Duncan, is probably thinking. I used cheap bots done quick, and created different categories that when put all, together creates different output. Below is the URL to my bot. 
 
-Here is the link to my python notebook where the code is hosted: https://colab.research.google.com/drive/1y-PCOsS-gFUlo41TtWKyLbeJG-rJzvFI
+https://twitter.com/duncanthedawg
